@@ -1,0 +1,35 @@
+[user]
+    email = derek-baker@idexx.com
+    name = Derek Baker
+[core]
+    editor = nvim
+    excludesfile = /home/dbaker/.gitignore_global
+[help]
+    autocorrect = 1
+[diff]
+    tool = kdiff3
+[merge]
+    tool = kdiff3
+[alias]
+    lga = log --graph --oneline --all --decorate
+    co = checkout
+    stat = status
+[push]
+    default = simple
+[difftool]
+    prompt = false
+[color]
+    status = auto
+[color "status"]
+    changed = blue
+    untracked = green
+[rebase]
+    instructionFormat = (%an <%ae>) %s
+[tag]
+	sort = version:refname
+[pager]
+	branch = false
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
