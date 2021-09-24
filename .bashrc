@@ -1,2 +1,2 @@
-bin/git-completion.bash
-bin/git-prompt.sh
+~/bin/git-completion.bash
+~/bin/git-prompt.sh
