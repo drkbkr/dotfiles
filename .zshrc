@@ -15,3 +15,5 @@ if [ -z $POETRY_ACTIVE ]; then
       eval "$(pyenv init --path)"
     fi
 fi
+
+export PATH=${PATH}/usr/bin/core_perl
