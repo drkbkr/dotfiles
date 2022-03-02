@@ -1,3 +1,6 @@
+fpath=(${HOME}/.config/zsh/prompt $fpath)
+autoload -Uz prompt; prompt
+
 #-----------------------------
 # Pyenv
 #-----------------------------
