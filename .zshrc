@@ -1,6 +1,8 @@
 fpath=(/root/.config/zsh $fpath)
 autoload -Uz prompt; prompt
 
+autoload -U compinit; compinit
+
 #-----------------------------
 # Pyenv
 #-----------------------------
