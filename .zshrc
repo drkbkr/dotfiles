@@ -16,4 +16,4 @@ if [ -z $POETRY_ACTIVE ]; then
     fi
 fi
 
-export PATH=${PATH}/usr/bin/core_perl
+export PATH=${PATH}:/usr/bin/core_perl
