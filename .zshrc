@@ -2,6 +2,7 @@ fpath=(/root/.config/zsh $fpath)
 autoload -Uz prompt; prompt
 
 autoload -U compinit; compinit
+_comp_options+=(globdots) # With hidden files
 
 #-----------------------------
 # Pyenv
