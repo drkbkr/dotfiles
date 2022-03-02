@@ -1,4 +1,4 @@
-fpath=(${HOME}/.config/zsh/prompt $fpath)
+fpath=(~/.config/zsh/prompt $fpath)
 autoload -Uz prompt; prompt
 
 #-----------------------------
