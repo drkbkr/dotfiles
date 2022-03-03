@@ -1,1 +1,1 @@
-supervisord &
+# supervisord &
