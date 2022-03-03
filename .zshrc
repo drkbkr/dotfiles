@@ -17,3 +17,5 @@ if [ -z $POETRY_ACTIVE ]; then
 fi
 
 export PATH=${PATH}:/usr/bin/core_perl
+
+alias ll='ls -al'
